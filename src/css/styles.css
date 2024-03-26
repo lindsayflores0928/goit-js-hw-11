@@ -8,46 +8,18 @@ img {
   padding-top: 30px;
   padding-bottom: 30px;
 }
-
-.button:hover::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: transparent;
-  border-radius: 50%;
-}
-
-.button:hover svg {
-  fill: black; 
-}
-
 .header {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 20px 0;
-  background-color: violet
+  background-color: blue
 }
 .search-form-input {
-  padding: 5px 15px;
-  border: 1px solid white;
-  border-radius: 20px;
+  padding-left: 15px;
+  border: none;
   outline: none;
-  color: white;
-  font-family: 'Montserrat', sans-serif;
-  background-color: #000000;
-  margin-bottom: 2px;
 }
-
-.search-form-input:hover {
-  border: 1px solid white;
-  box-shadow: 0 0 10px rgb(231, 233, 233);
-  animation: glow 1s ease-in-out infinite alternate;
-}
-
 .gallery {
   display: flex;
   flex-wrap: wrap;
@@ -91,4 +63,30 @@ img {
   display: inline-flex; 
   align-items: center;
   position: relative; 
+}
+
+.button svg {
+  width: 13px;
+  height: 13px;
+  fill: rgb(255, 255, 255);
+}
+
+.button:hover {
+  background-color: aliceblue;
+  color: black; 
+}
+
+.button:hover::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border-radius: 50%;
+}
+
+.button:hover svg {
+  fill: black; 
 }
