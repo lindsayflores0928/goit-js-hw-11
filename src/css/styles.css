@@ -15,11 +15,11 @@ img {
   padding: 20px 0;
   background-color: violet
 }
-.search-form-input {
+/*.search-form-input {
   padding-left: 15px;
   border: none;
   outline: none;
-}
+}*/
 .gallery {
   display: flex;
   flex-wrap: wrap;
