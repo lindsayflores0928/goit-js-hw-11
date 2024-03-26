@@ -1,7 +1,7 @@
 import { BASE_URL, options } from "./pixabay-api.js";
 import axios from "axios";
-import { Notify } from "notiflix/build/notiflix-notify-aio.js";
-import simpleLightbox from "simplelightbox";
+import { Notify } from "notiflix/build/notiflix-notify-aio";
+import SimpleLightbox from 'simplelightbox';
 import "simplelightbox/dist/simple-lightbox.min.css";
 
 // ELEMENTS
@@ -12,10 +12,10 @@ const searchFormEl = document.getElementById("search-form");
 let reachEnd = false;
 let totalHits = 0;
 
-const lightbox = new simpleLightbox(".lightbox", {
+const lightbox = new SimpleLightbox(".lightbox", {
     captionsData: "alt",
     captionsDelay: 250,
-})
+});
 
 function renderGallery(hits) {
     let markup = hits.map(
