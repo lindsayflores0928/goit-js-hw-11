@@ -25,6 +25,13 @@ img {
   background-color: #000000;
   margin-bottom: 2px;
 }
+
+.search-form-input:hover {
+  border: 1px solid white;
+  box-shadow: 0 0 10px rgb(231, 233, 233);
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
 .gallery {
   display: flex;
   flex-wrap: wrap;
