@@ -15,11 +15,16 @@ img {
   padding: 20px 0;
   background-color: violet
 }
-/*.search-form-input {
-  padding-left: 15px;
-  border: none;
+.search-form-input {
+  padding: 5px 15px;
+  border: 1px solid white;
+  border-radius: 20px;
   outline: none;
-}*/
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #000000;
+  margin-bottom: 2px;
+}
 .gallery {
   display: flex;
   flex-wrap: wrap;
